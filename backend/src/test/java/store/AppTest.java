@@ -12,8 +12,7 @@ public class AppTest {
         List<String> expected = Arrays.asList(
             "Сосиска говяжья",
             "Сарделька свиная",
-            "Колбаса копчёная",
-            
+            "Колбаса копчёная"
         );
 
         List<String> actual = App.getProducts();
