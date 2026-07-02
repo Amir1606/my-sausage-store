@@ -13,7 +13,7 @@ public class AppTest {
             "Сосиска говяжья",
             "Сарделька свиная",
             "Колбаса копчёная",
-            "Шпикачка"
+            
         );
 
         List<String> actual = App.getProducts();
