@@ -1,0 +1,7 @@
+{
+  "name": "sausage-store-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist/frontend && cp index.html dist/frontend/"
+  }
+}
