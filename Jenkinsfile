@@ -10,6 +10,13 @@ pipeline {
         jdk   'jdk-17'
     }
 
+  
+    environment {
+        BOT_TOKEN = credentials('telegram-bot-token')
+        CHAT_ID   = credentials('telegram-chat-id')
+    }	
+
+
     stages {
         stage('Build backend') {
             steps {
